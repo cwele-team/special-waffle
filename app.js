@@ -656,6 +656,13 @@ async function ensureCategoriesLoaded() {
     // Function to show search suggestions
     function showSuggestions(query) {
       const searchSuggestions = document.getElementById('search-suggestions');
+      
+      // Don't show suggestions for empty query
+      if (!query || query.length < 2) {
+        hideSuggestions();
+        return;
+      }
+      
       const suggestions = generateSuggestions(query);
       
       if (suggestions.length === 0) {
