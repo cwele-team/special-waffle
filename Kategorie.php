@@ -22,7 +22,7 @@
                 <div class="category-header">
                     <h2>Wybierz kategorię</h2>
                 </div>
-                  <div class="search-container">
+                <div class="search-container">
                     <div class="search-input-wrapper">
                         <i data-lucide="search" class="search-icon"></i>
                         <input 
@@ -36,7 +36,7 @@
                         <button id="clear-search" class="clear-search-btn" aria-label="Wyczyść wyszukiwanie" style="display: none;">
                             <i data-lucide="x"></i>
                         </button>
-</div>
+                    </div>
                     <div id="search-suggestions" class="search-suggestions" style="display: none;" role="listbox" aria-label="Podpowiedzi wyszukiwania"></div>
                 </div>
                 <div class="search-results-info" id="search-results-info" style="display: none;">
